@@ -1,0 +1,297 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+
+.shortcut ul li {
+    float: left;
+}
+
+.style_red {
+    color: #c81623!important;
+}
+
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 11px;
+    background-color: #666666;
+    margin: 9px 15px 0;
+}
+
+.arrow-icon::after {
+    font-family: 'icomoon';
+    margin-left: 5px;
+    content: '\e91e';
+}
+
+.header {
+    position: relative;
+    height: 150px;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 171px;
+    height: 61px;
+}
+
+.logo a {
+    display: block;
+    left: 0;
+    width: 171px;
+    height: 61px;
+    background: url(images/logo.png);
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+.search {
+    position: absolute;
+    top: 25px;
+    left: 348px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+
+.search input {
+    float: left;
+    padding-left: 10px;
+    width: 454px;
+    height: 32px;
+}
+
+.search button {
+    float: left;
+    width: 80px;
+    height: 32px;
+    background-color: #b1191a;
+}
+
+.hotwrods {
+    position: absolute;
+    top: 70px;
+    left: 348px;
+}
+
+.hotwrods a {
+    padding: 0 10px;
+    font-size: 12px;
+    color: #666666;
+}
+
+
+/* shopcar开始 */
+
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 61px;
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+    background-color: #f7f7f7;
+    border: 1px solid #666666;
+}
+
+.shopcar::before {
+    font-family: 'icomoon';
+    color: #b1191a;
+    content: '\e93a';
+}
+
+.shopcar::after {
+    font-family: 'icomoon';
+    content: '\e920';
+}
+
+.count {
+    position: absolute;
+    top: -5px;
+    left: 105px;
+    width: 14px;
+    height: 14px;
+    line-height: 15px;
+    border-radius: 7px 7px 7px 0px;
+    color: #fff;
+    background-color: #b1191a;
+}
+
+
+/* shopcar结束 */
+
+
+/* nav start */
+
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.dropdown {
+    float: left;
+}
+
+.dropdown dt {
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.navitems {
+    float: left;
+}
+
+.dropdown dd {
+    /* display: none; */
+    width: 210px;
+    height: 465px;
+    background-color: #c81623;
+}
+
+.dropdown dd ul li {
+    position: relative;
+    margin-left: 2px;
+    width: 210px;
+    height: 31px;
+    line-height: 31px;
+}
+
+.dropdown dd ul li a {
+    display: block;
+    width: 210px;
+    height: 31px;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.dropdown dd ul li a:hover {
+    color: #c81623;
+    background-color: #fff;
+}
+
+.dropdown dd ul li::after {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    font-size: 14px;
+    font-family: 'icomoon';
+    color: #fff;
+    content: '\e920';
+}
+
+.navitems ul li {
+    float: left;
+}
+
+.navitems ul li a {
+    padding: 0 25px;
+    font-size: 16px;
+    color: #333333;
+}
+
+
+/* nav end */
+
+
+/* footer start */
+
+.footer {
+    padding-top: 10px;
+    height: 415px;
+    background-color: #f5f5f5;
+}
+
+.mod_service {
+    height: 110px;
+}
+
+.mod_service ul li {
+    float: left;
+    height: 50px;
+    padding-left: 35px;
+    width: 240px;
+    /* background-color: #ff0; */
+}
+
+.mod_service ul li h4 {
+    float: left;
+    margin-right: 8px;
+    width: 50px;
+    height: 50px;
+    background: url(images/icons.png) no-repeat -253px -2px;
+}
+
+
+/* footer end */
+
+.mod_myhelp {
+    height: 190px;
+    padding-top: 20px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+.mod_myhelp dl {
+    float: left;
+    padding-left: 50px;
+    width: 200px;
+}
+
+.mod_myhelp dt {
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.mod_myhelp dd {
+    font-size: 12px;
+    color: #666666;
+}
+
+
+/* my_copyright start */
+
+.my_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.links {
+    font-size: 12px;
+    color: #666666;
+    padding-bottom: 10px;
+}
+
+.copyright {
+    line-height: 20px;
+}
+
+.links a {
+    margin: 0 5px;
+}
+
+
+/* my_copyright end */

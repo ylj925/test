@@ -1,0 +1,315 @@
+    .main {
+        width: 981px;
+        height: 455px;
+        margin-left: 220px;
+        margin-top: 10px;
+    }
+    
+    .focus {
+        float: left;
+        width: 721px;
+        height: 455px;
+    }
+    
+    .newflash {
+        float: right;
+        width: 251px;
+        height: 455px;
+    }
+    
+    .new {
+        height: 165px;
+        padding: 10px 15px;
+        border: 1px solid #e4e4e4;
+        /* background-color: #00f; */
+    }
+    
+    .lifeservice {
+        overflow: hidden;
+        height: 210px;
+        border: 1px solid #e4e4e4;
+        border-top: 0;
+    }
+    
+    .bargain {
+        margin-top: 5px;
+    }
+    
+    .lifeservice ul {
+        width: 252px;
+    }
+    
+    .lifeservice ul li {
+        float: left;
+        text-align: center;
+        width: 63px;
+        height: 71px;
+        border-right: 1px solid #e4e4e4;
+        border-bottom: 1px solid #e4e4e4;
+    }
+    
+    .lifeservice ul li:nth-child(1) i {
+        margin-top: 12px;
+        display: inline-block;
+        width: 26px;
+        height: 28px;
+        background: url(../images/icons.png) no-repeat -19px -15px;
+    }
+    
+    .lifeservice ul li:nth-child(2) i {
+        margin-top: 12px;
+        display: inline-block;
+        width: 26px;
+        height: 28px;
+        background: url(../images/icons.png) no-repeat -79px -15px;
+    }
+    
+    .lifeservice ul li:nth-child(3) i {
+        margin-top: 12px;
+        display: inline-block;
+        width: 26px;
+        height: 28px;
+        background: url(../images/icons.png) no-repeat -139px -15px;
+    }
+    
+    .lifeservice ul li:nth-child(4) i {
+        margin-top: 12px;
+        display: inline-block;
+        width: 26px;
+        height: 28px;
+        background: url(../images/icons.png) no-repeat -199px -15px;
+    }
+    
+    .lifeservice ul li:nth-child(5) i {
+        margin-top: 12px;
+        display: inline-block;
+        width: 26px;
+        height: 28px;
+        background: url(../images/icons.png) no-repeat -19x -15px;
+    }
+    
+    .lifeservice ul li:nth-child(5) i {
+        margin-top: 12px;
+        display: inline-block;
+        width: 26px;
+        height: 28px;
+        background: url(../images/icons.png) no-repeat -78px -15px;
+    }
+    
+    .lifeservice ul li:nth-child(6) i {
+        margin-top: 12px;
+        display: inline-block;
+        width: 26px;
+        height: 28px;
+        background: url(../images/icons.png) no-repeat -78px -15px;
+    }
+    
+    .lifeservice ul li:nth-child(7) i {
+        margin-top: 12px;
+        display: inline-block;
+        width: 26px;
+        height: 28px;
+        background: url(../images/icons.png) no-repeat -78px -15px;
+    }
+    
+    .lifeservice ul li:nth-child(8) i {
+        margin-top: 12px;
+        display: inline-block;
+        width: 26px;
+        height: 28px;
+        background: url(../images/icons.png) no-repeat -78px -15px;
+    }
+    
+    .lifeservice ul li:nth-child(9) i {
+        margin-top: 12px;
+        display: inline-block;
+        width: 26px;
+        height: 28px;
+        background: url(../images/icons.png) no-repeat -78px -15px;
+    }
+    
+    .lifeservice ul li:nth-child(10) i {
+        margin-top: 12px;
+        display: inline-block;
+        width: 26px;
+        height: 28px;
+        background: url(../images/icons.png) no-repeat -78px -15px;
+    }
+    
+    .lifeservice ul li:nth-child(11) i {
+        margin-top: 12px;
+        display: inline-block;
+        width: 26px;
+        height: 28px;
+        background: url(../images/icons.png) no-repeat -78px -15px;
+    }
+    
+    .lifeservice ul li:nth-child(12) i {
+        margin-top: 12px;
+        display: inline-block;
+        width: 26px;
+        height: 28px;
+        background: url(../images/icons.png) no-repeat -78px -15px;
+    }
+    
+    .new-hd {
+        height: 34px;
+        line-height: 34px;
+        border-bottom: 1px dotted #e4e4e4;
+    }
+    
+    .new-hd h4 {
+        float: left;
+        font-size: 14px;
+        color: #333333;
+    }
+    
+    .new-hd a {
+        float: right;
+    }
+    
+    .new-hd a::after {
+        font-family: "icomoon";
+        content: '\e920';
+    }
+    
+    .new-db {
+        /* height: 125px; */
+    }
+    
+    .new-bd ul li {
+        height: 24px;
+        line-height: 24px;
+        /* padding: 5px 0; */
+        white-space: nowrap;
+        /* 2.溢出的部分隐藏起来 */
+        overflow: hidden;
+        /* 3. 文字溢出的时候用省略号来显示 */
+        text-overflow: ellipsis;
+    }
+    
+    .recommend {
+        margin-top: 10px;
+        height: 163px;
+        background-color: #ebebeb;
+    }
+    
+    .recom-hd {
+        float: left;
+        height: 163px;
+        width: 206px;
+    }
+    
+    .recom-bd {
+        float: left;
+        background-color: #00ff00;
+    }
+    
+    .recom-bd ul li {
+        float: left;
+        position: relative;
+    }
+    
+    .recom-bd ul li:nth-child(-n+3)::after {
+        position: absolute;
+        top: 0;
+        content: '';
+        z-index: 1;
+        margin-top: 10px;
+        width: 1px;
+        height: 143px;
+        background-color: #dddddd;
+    }
+    
+    .tab_list {
+        float: left;
+        margin-top: 35px;
+        width: 1200px;
+        height: 30px;
+    }
+    
+    .tab_list h3 {
+        float: left;
+        font-size: 18px;
+        color: #c81623;
+        font-weight: normal;
+    }
+    
+    .tab_list ul li a {
+        font-size: 12px;
+        margin: 0 15px;
+    }
+    
+    .tab_list ul li a:last-child {
+        margin-right: 0;
+    }
+    
+    .tab_list ul {
+        float: right;
+        height: 30px;
+    }
+    
+    .tab_list ul li {
+        float: left;
+    }
+    
+    .tab_content {
+        float: left;
+        width: 1200px;
+        height: 360px;
+        /* background-color: #f0f; */
+    }
+    
+    .tab_content>div {
+        float: left;
+        height: 360px;
+    }
+    
+    .col_209 {
+        width: 209px;
+        padding-left: 13px;
+        background-color: #fff;
+        text-align: center;
+    }
+    
+    .col_209 ul li {
+        float: left;
+        width: 80px;
+        margin-left: 12px;
+        height: 33px;
+        border-bottom: 1px solid #ccc;
+        line-height: 32px;
+    }
+    
+    .col_209 ul {
+        height: 99px;
+    }
+    
+    .col_209 div {
+        margin-top: 26px;
+    }
+    
+    .col_329 {
+        width: 329px;
+    }
+    
+    .col_220 {
+        width: 220px;
+        border-right: 1px solid #ccc;
+    }
+    
+    .col_221 {
+        width: 221px;
+    }
+    
+    .col_220 a {
+        display: inline-block;
+    }
+    
+    .col_221 a {
+        display: inline-block;
+    }
+    
+    .bb {
+        border-bottom: 1px solid #ccc;
+    }

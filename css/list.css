@@ -1,0 +1,103 @@
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+    padding: 0 25px;
+}
+
+.sk_list ul li a {
+    font-size: 16px;
+    line-height: 45px;
+    color: #000;
+    font-weight: 700;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+    padding: 0 20px;
+}
+
+.sk_con ul li a {
+    font-size: 14px;
+    line-height: 47px;
+    color: #000;
+}
+
+.sk_con ul li:last-child::after {
+    font-family: "icomoon";
+    content: '\e91e';
+}
+
+.sk_hd {
+    height: 120px;
+    margin-bottom: 25px;
+}
+
+.sk_bd {}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd li {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    padding: 10px 10px;
+    margin-right: 13px;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+
+.sk_bd li:hover {
+    border: 1px solid #b1191a;
+}
+
+.sk_bd h3 {
+    font-weight: normal;
+}
+
+.sk_bd span:first-of-type {
+    font-size: 22px;
+    color: #b1191a;
+}
+
+.sk_bd span:last-of-type {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #a4a4a4;
+}
+
+.dw {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 290px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #b1191a;
+}
+
+.dw a {
+    font-size: 20px;
+    color: #fff;
+}
+
+.sk {
+    position: absolute;
+    top: 43px;
+    left: 185px;
+    width: 70px;
+    height: 26px;
+    padding-left: 14px;
+    line-height: 30px;
+    border-left: 1px solid #c81523;
+}
